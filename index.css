@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Pizza-Background.jpg);
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo-title h1 {
+    color: whitesmoke;
+    background-color: #CF0A0A;
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+}
+
+.logo-title {
+    text-align: center;
+    width: 100%;
+}
+
+.logo-title a {
+    text-decoration: none;
+}
+
+.menu-title {
+    text-align: center;
+    color: #CF0A0A;
+    background-color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+    width: 80%;
+    margin: auto;
+}
+
+.menu-pizza {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+.menu-pizza h3 {
+    color: #CF0A0A;
+}
+
+.pepperonipizza {
+    line-height: 1.6;
+    width: 40%;
+    margin-left: 8%;
+    transition: 0.8s;
+}
+
+.jalapenopizza {
+    line-height: 1.6;
+    width: 40%;
+    margin-left: 8%;
+    transition: 0.8s;
+}
+
+.hawaiianpizza {
+    line-height: 1.6;
+    width: 40%;
+    margin-left: 8%;
+    transition: 0.8s;
+}
+
+.margheritapizza {
+    line-height: 1.6;
+    width: 40%;
+    margin-left: 8%;
+    transition: 0.8s;
+}
+
+.pepperonipizza img {
+    width: 80%;
+}
+
+.jalapenopizza img {
+    width: 80%;
+}
+
+.hawaiianpizza img {
+    width: 80%;
+}
+
+.margheritapizza img {
+    width: 80%;
+}
+
+.pepperonipizza:hover {
+    transform: scale(1.06);
+    z-index: 2;
+}
+
+.jalapenopizza:hover {
+    transform: scale(1.06);
+    z-index: 2;
+}
+
+.hawaiianpizza:hover {
+    transform: scale(1.06);
+    z-index: 2;
+}
+
+.margheritapizza:hover {
+    transform: scale(1.06);
+    z-index: 2;
+}
+
+.pepperonipizza ul {
+    font-size: 17px;
+    list-style-type: disc;
+}
+
+.jalapenopizza ul {
+    font-size: 17px;
+    list-style-type: disc;
+}
+
+.hawaiianpizza ul {
+    font-size: 17px;
+    list-style-type: disc;
+}
+
+.margheritapizza ul {
+    font-size: 17px;
+    list-style-type: disc;
+}
+
+.ha ul {
+    font-size: 17px;
+    list-style-type: disc;
+}
+
+.orderbutton {
+  text-transform: uppercase;
+  color: whitesmoke;
+  background-color: #CF0A0A;
+  width: 80%;
+  height: 25px;
+  font-size:15px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.orderbutton:hover {
+  background-color:whitesmoke;
+  color: #CF0A0A;
+  cursor: pointer;
+  font-family: 'Roboto Slab', serif;
+}
