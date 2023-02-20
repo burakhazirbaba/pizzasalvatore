@@ -1,1 +1,1 @@
-# pizzasalvatore https://burakhazirbaba.github.io/pizzasalvatore/
+# Pizza Salvatore (Digital Pizza Menu) https://burakhazirbaba.github.io/pizzasalvatore/
